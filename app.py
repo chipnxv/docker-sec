@@ -8,8 +8,7 @@ app = Flask(__name__)
 @app.get("/")
 def home():
     return {
-        "message": "Hello from Docker",
-        "hint": "Edit app.py, then rebuild the image to see changes inside the container.",
+        "message": "Test docker security and wsl",
     }
 
 
